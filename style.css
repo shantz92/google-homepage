@@ -58,13 +58,16 @@ body {
 
 header {
     /* margin: auto; */
-    display: block;
+    display: flex;
     font-size: 13px;
     padding: 15px; 
     margin-top: 10px;
+    flex-direction: row;
 
 }
-
+ul {
+    list-style: none;
+}
 .main {
     width: 100%; 
     height: 80%;
@@ -112,7 +115,7 @@ header {
     border-color: rgb(223, 225, 229);
 }
 
-.footer {
+footer {
     width: 100%;
     height: 42px;
     max-width: 100%;
