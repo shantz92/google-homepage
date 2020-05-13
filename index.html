@@ -5,28 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google Project</title>
+    <script src="https://kit.fontawesome.com/fb051f31eb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
-<h1> This is a Test</h1>
-    <div class="topnav"> 
-        <a href="About">About</a>
-        <a href="Store">Store</a>
-        <a href="Gmail">Gmail</a>
-        <a href="Images">Images</a>
-    </div>
+<div id="box-container">
 
-    <div id="main">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google">   
-    </div>
 
-    <div id="searchform">
-        <input type="text" placeholder="  ">
+    <header> 
+       <ul>
+        <li>
+            <a class="header-link" href="https://about.google.com">About</a>
+        </li> 
+        <li>
+            <a class="header-link" href="https://store.google.com">Store</a>
+        </li>
+        <li class="righ-float" id="sign-in-button">
+            <a class="header-link" id="sign-in-text" href="https://myaccount.google.com"> Sign In</a>
+            </li>
+        <li class="right-float">
+            <a class="header-link" href="https://about.google/intl/en/products/?tab=wh&tip=explore">
+                <img src="images/google-apps-icon-34x34.png" alt="icon for google apps" style="width:16px;height:16px;"></a>
+        </li>    
+        <li class="right-float">
+            <a class="header-link" href="https://images.google.com">Images </a>
+        </li>
+        <li class="right-float">
+            <a class="header-link" href="https://gmail.google.com">Gmail</a>
+        </li>
+        </ul>
+    </header>
+
+
+<div class="main">
+    <div id="logo">
+        <a href="https://www.google.com/"> <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google">   
+        </a>
+        </div>
+
+    <div class="search-bar">
+            <i class="fas fa-search"></i>
+        <input id="bar" type="text">
+        </div>
+
         <button>Google Search</button>
         <button>I'm Feeling Lucky</button>
     </div>
-
+</div> 
     <div class="footer">
         <a href="Advertising">Advertising</a>
         <a href="Business">Business</a>
@@ -36,7 +63,7 @@
         <a href="Settings">Settings</a>
 
     </div>
-
+</div>
 
     
 </body>
