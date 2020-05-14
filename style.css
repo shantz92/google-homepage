@@ -37,6 +37,8 @@ ul {
     list-style-type: none; 
     display: flex;
 
+
+
 }
 
 a:visited {
@@ -65,7 +67,8 @@ a {
 }
 
 .nav-left {
-    float: left; 
+    float: left;
+ 
 }
 
 .main {
@@ -125,23 +128,32 @@ footer {
     position: fixed;
     bottom: 0;
     font-size: 14px; 
-    display: block;
+    display: flex;
     margin: 0;
-    padding: 0px 15px 0px 15px; 
+    /* padding: 0px 15px 0px 15px;  */
     border: 0;
-    /* vertical-align: baseline; */
+  
 }
 
 .footer-link {
-    float: left;
-    text-align: center;
+    text-align: auto;
     padding: 14px 16px; 
     text-decoration: none; 
     font-size: 14px; 
 }
 
-input {    
-    /* background: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png") top left     no-repeat; */
-    height:30px;
-    padding-left:25px;   
-    }
+.rightfoot {
+    float: right;
+    
+
+}
+
+.leftfoot {
+    float: left;
+}
+
+
+/* input {    
+    background: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png") top left     no-repeat;
+    height: 30px; 
+}  */
