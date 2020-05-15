@@ -50,14 +50,13 @@ a {
 }
 
 .header-link {
-    padding: 14px 16px; 
+    padding: 9px; 
     text-decoration: none; 
     font-size: 14px;  
 }
 
 .header-link:hover {
-    background-color: #ddd;
-    color:black;
+    text-decoration: underline; 
 } 
 
 .nav-right {
@@ -130,16 +129,19 @@ footer {
     font-size: 14px; 
     display: flex;
     margin: 0;
-    /* padding: 0px 15px 0px 15px;  */
     border: 0;
   
 }
 
 .footer-link {
     text-align: auto;
-    padding: 14px 16px; 
+    padding: 0px 14px; 
     text-decoration: none; 
     font-size: 14px; 
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
 
 .rightfoot {
@@ -151,6 +153,18 @@ footer {
 .leftfoot {
     float: left;
 }
+
+#sign-in-button {
+    width: 200px;
+    height: 200px;
+    background-color: #4285F4;
+    border-radius: px; 
+    color: white; 
+    font-style: strong; 
+    border: gray solid 0.25px;
+}
+ 
+
 
 
 /* input {    
